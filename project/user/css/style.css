@@ -1,0 +1,13 @@
+.user__image{
+    background-color: aqua;
+    width: 100px;
+}
+.table-reg{
+    width: 300px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+    text-align: center; /* Выравниваем текст по центру ячейки */
+}
+.tr{
+    text-align: center; /* Выравниваем текст по центру ячейки */
+}

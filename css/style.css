@@ -1,0 +1,30 @@
+
+.greet-block__content{
+    margin-top: calc(height *3);
+}
+.greet-block__button{
+    margin-left: calc(width*0.3);
+}
+
+    
+.user_card__desc{
+    color: #f40808;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .body {
+    flex: 1;
+    margin: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    .body {
+      flex-basis: calc(33.33% - 20px);
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .body {
+      flex-basis: calc(25% - 20px);
+    }
+  }

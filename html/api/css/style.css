@@ -1,0 +1,82 @@
+.warapper{
+    min-height: 100%;
+    width : 100%;
+    overflow: hidden;
+}
+html,body{
+   font-size: 20px; 
+   font-family: Lato, sans-serif;
+   color: #424551;
+   line-height: 160%;
+}
+.container {
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+  }
+/*----------------------*/
+.header {
+    font-weight: 700;
+}
+.header__top-iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+/* .header__top{} */
+
+.header__logo{
+margin-right: 60px;
+}
+.header__nav {
+    margin-right: auto;
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item {
+    list-style-type: none;
+    margin-right: 40px;
+}
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+.header__nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.header__btn-box {
+    display: flex;
+    
+}
+.header__user {
+}
+.header__user-btn {
+    margin-right: 10px;
+    list-style-type: none;
+}
+.header__body {
+}
+a:visited {
+    color: #070707;
+}
+
+a:hover {
+    color: rgb(169, 15, 15);
+}
+/* .header__body {} */
+.header__body-text {
+    align-items: center;
+    padding: 20px 0;
+}
+.firstname {
+}
+.secondname {
+}
+.phone-number {
+}
+.mail {
+}
