@@ -1,0 +1,76 @@
+.wrapper-case1 {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(214, 214, 214, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform .5s ease, height .2s ease;
+
+}
+
+.wrapper-case1.inactive-popup {
+    transform: scale(0);
+}
+
+.wrapper-case1.more {
+    height: 820px;
+}
+
+.wrapper-case1 .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapper-case1 .icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.wrapper-case1 .form-box.main {
+    /* display:  none; */
+    transition: none;
+    /* transform: translateX(-400px); */
+
+
+}
+
+.wrapper-case1.more .form-box.main {
+    transition: none;
+    transform: translateX(-400px);
+    display: none;
+
+}
+
+.wrapper-case1.more .form-box.more-info {
+    transition: none;
+    transform: translateX(0px);
+    display: block;
+    transform: scale(1);
+
+}
+
+.wrapper-case1 .form-box.more-info {
+    position: absolute;
+    transform: translateX(400px);
+    display: none;
+}

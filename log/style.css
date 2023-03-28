@@ -101,6 +101,7 @@ body {
     display: none;
 }
 
+
 .form-box h2 {
     font-size: 2em;
     color: #162938;
@@ -265,15 +266,14 @@ header {
 
 .login-register {
     font-size: .9em;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
 }
 
 .login-register p a {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-weight: 500;
 }
-/*------------------*/
